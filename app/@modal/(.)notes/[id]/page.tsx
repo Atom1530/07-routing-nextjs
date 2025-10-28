@@ -1,7 +1,7 @@
 // app/notes/[id]/page.tsx
 import { fetchNoteById } from '@/lib/api';
 import NoteDetailsClient from '@/app/notes/[id]/NoteDetails.client';
-import NoteModal from '@/components/NoteModal/NoteModal';
+import NoteModal from './NotePreview.client';
 interface Props {
   params: Promise<{ id: string }>;
 }
