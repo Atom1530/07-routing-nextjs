@@ -3,7 +3,7 @@
 
 import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
-import styles from '../Modal/Modal.module.css';
+import styles from '@/components/Modal/Modal.module.css';
 
 type Props = { children: React.ReactNode };
 
